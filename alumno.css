@@ -1,0 +1,200 @@
+.alumno-item {
+    width: 348px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 10px;
+    margin: 5px;
+    background-color: #D9D9D9;
+    color: #231F20;
+}
+
+.botones-contenedor {
+    display: flex;
+    gap: 10px; 
+    align-items: center; 
+}
+
+.btn-asistencia {
+    width: 26px;
+    height: 27px;
+    background-color: #537D5D;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-uniforme {
+    width: 26px;
+    height: 27px;
+    background-color: #9EBC8A;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-msj {
+    width: 26px;
+    height: 27px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.btn-msj-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.btn-alumno {
+    width: 200px;
+    height: 50px;
+    background-color: #537D5D;
+    color: #D9D9D9;
+    border: none;
+    border-radius: 10px;
+    margin-left: auto;
+    display: block; 
+}
+
+.alumno-listado {
+    border: 1px solid #537D5D;
+}
+
+.alumnos-listado {
+    margin-top: 70px;
+}
+
+.usuario-header {
+    margin-left: 20px;
+}
+
+.panel-emergente {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    text-align: center;
+}
+
+.panel-emergente h3 {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #333;
+     
+}
+
+.input-texto {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.cerrar-btn {
+    padding: 10px 20px;
+    background-color: #537D5D;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 5px;
+}
+
+.cerrar-btn:hover {
+    background-color: #6a9b76;
+}
+
+.contenedor-imagenes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.imagen-uniforme {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.imagen-uniforme:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.botones-contenedor {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.btn-asistencia {
+    width: 26px;
+    height: 27px;
+    background-color: #537D5D;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-uniforme {
+    width: 26px;
+    height: 27px;
+    background-color: #9EBC8A;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-msj {
+    width: 26px;
+    height: 27px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.btn-msj-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.btn-alumno {
+    width: 200px;
+    height: 50px;
+    background-color: #537D5D;
+    color: #D9D9D9;
+    border: none;
+    border-radius: 10px;
+    margin-left: auto;
+    display: block;
+}
+
+.alumnos-listado {
+    margin-top: 70px;
+}
+
+.alumno-item {
+    width: 348px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 5px;
+    background-color: #D9D9D9;
+    color: #231F20;
+}

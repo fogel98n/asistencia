@@ -1,0 +1,26 @@
+.grados-listado{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 60px;
+    
+}
+.grado-item {
+    width: 300px;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #537D5D;
+    border-radius: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 10px;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
